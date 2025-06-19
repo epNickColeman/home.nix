@@ -13,34 +13,34 @@
   let
     # User configuration - define your user details here
     user = {
-      name        = "alexey";
-      fullName    = "Alexey Raga";
-      email       = "alexey.raga@gmail.com";  # Replace with your actual email
-      home        = "/Users/alexey";
+      name        = "nick";
+      fullName    = "Nick Coleman";
+      email       = "nick.coleman@educationperfect.com";  # Replace with your actual email
+      home        = "/Users/niclk";
       shell       = "zsh";
       
       # Git-specific configurations
-      githubUser  = "AlexeyRaga";
+      githubUser  = "epNickColeman";
       gitWorkspaces = {
         "src/ep" = {
           user = {
-            email = "alexey.raga@educationperfect.com";
-            name = "AlexeyRaga";
+            email = "nick.coleman@educationperfect.com";
+            name = "Nick Coleman";
           };
           core = { autocrlf = "input"; };
         };
         # Add more workspaces here as needed
         # "src/personal" = {
         #   user = {
-        #     email = "alexey.raga@gmail.com";
-        #     name = "Alexey Raga";
+        #     email = "nick.j.coleman@gmail.com";
+        #     name = "Nick Coleman";
         #   };
         # };
       };
     };
   in
   {
-    darwinConfigurations."Alexeys-MacBook-Pro" = nix-darwin.lib.darwinSystem {
+    darwinConfigurations."Nicks-MacBook-Pro" = nix-darwin.lib.darwinSystem {
       specialArgs = { inherit inputs user; };
       modules = [
         ./darwin-configuration.nix
