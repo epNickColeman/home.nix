@@ -23,7 +23,7 @@ in
     targets.darwin.plists = {
       # Disable Spotlight hotkey
       "Library/Preferences/com.raycast.macos.plist" = {
-        "raycastGlobalHotkey" = "Command-49";
+        #"raycastGlobalHotkey" = "Command-49";
       };
     };
   };

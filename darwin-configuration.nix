@@ -23,7 +23,7 @@ in
 
   system.keyboard = {
     enableKeyMapping = true;
-    remapCapsLockToControl = true;
+    remapCapsLockToControl = false;
   };
 
   environment = {
@@ -34,7 +34,7 @@ in
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
   system.stateVersion = 5;
-  ids.gids.nixbld = 30000;
+  ids.gids.nixbld = 350;
 
   # nixpkgs.config.allowBroken = true;
   nixpkgs.config.allowUnfree = true;

@@ -24,7 +24,6 @@
       { app = "/Applications/Visual Studio Code.app"; }
       { app = "/Applications/iTerm.app"; }
       { app = "/Applications/Slack.app"; }
-      { app = "/Applications/Telegram.app"; }
       { app = "/Applications/Discord.app"; }
     ];
 

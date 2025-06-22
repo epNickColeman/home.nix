@@ -16,7 +16,7 @@
       name        = "nick";
       fullName    = "Nick Coleman";
       email       = "nick.coleman@educationperfect.com";  # Replace with your actual email
-      home        = "/Users/niclk";
+      home        = "/Users/nick";
       shell       = "zsh";
       
       # Git-specific configurations

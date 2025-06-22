@@ -3,7 +3,7 @@ let
   awsRdsBundle = builtins.fetchurl {
     name = "aws-rds-pki-bundle.pem";
     url = "https://truststore.pki.rds.amazonaws.com/global/global-bundle.pem";
-    sha256 = "sha256:13yvbh6lj7g1zyvcl7jbncjy6dcz1q5sx824w2vf53yllpm928fp";
+    sha256 = "sha256:00qcdx082bbs874l8midd6fk6wbs6y1ny71khpph54kfgsn9r92z";
   };
   awsRedshiftBundle = builtins.fetchurl {
     name = "aws-redshift-pki-bundle.pem";
