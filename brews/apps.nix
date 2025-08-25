@@ -77,6 +77,7 @@
 
   brews.iterm2 = {
     enable = true;
+    theme = "DrakulaPlus";
   };
 
   brews.raycast = {
