@@ -63,6 +63,7 @@
         "vscode-icons-team.vscode-icons"
         "yzhang.markdown-all-in-one"
         "zxh404.vscode-proto3"
+        "TheNuProjectContributors.vscode-nushell-lang"
     ];
   };
 
