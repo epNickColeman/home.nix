@@ -8,7 +8,8 @@
 
   home.packages = with pkgs; [
     devenv
-    
+    nufmt # Nushell formatter
+
     tree
 
     clang
