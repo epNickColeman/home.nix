@@ -15,6 +15,10 @@ in
     };
   };
 
+  home.packages = [
+    pkgs.claude-code
+  ];
+
   tools.dotnet = {
     nugetSources = {
       "ep-github" = {
