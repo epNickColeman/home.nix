@@ -21,8 +21,6 @@
       "sublime-text"
       "zoom"
       "mitmproxy"
-      "tor-browser" # privacy-focused browser
-      "thebrowsercompany-dia" # web browser with AI
     ];
     
   };
