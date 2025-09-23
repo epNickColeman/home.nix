@@ -17,13 +17,12 @@ in
 
     system.keyboard.shortcuts = {
       enable = true;
-      spotlight.search.enable = false;
+      spotlight.search.enable = true;
     };
 
     targets.darwin.plists = {
       # Disable Spotlight hotkey
-      "Library/Preferences/com.raycast.macos.plist" = {
-        #"raycastGlobalHotkey" = "Command-49";
+      "Library/Preferences/com.raycast.macos.plist" = {  
       };
     };
   };

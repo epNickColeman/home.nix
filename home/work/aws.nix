@@ -8,6 +8,7 @@ with lib;
       ep = {
         sso_start_url = "https://educationperfect.awsapps.com/start";
         sso_region = "ap-southeast-2";
+        sso_registration_scopes = "sso:account:access";
 
         profiles = {
           ecr = {
@@ -21,6 +22,11 @@ with lib;
           };
 
           dev = {
+            sso_account_id = "327162508743";
+            sso_role_name = "admin";
+          };
+
+          dev-admin = {
             sso_account_id = "327162508743";
             sso_role_name = "admin";
           };

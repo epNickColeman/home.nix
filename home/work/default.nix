@@ -11,6 +11,7 @@ in
 
   home = {
     sessionVariables = {
+      EP_NUGET_SOURCE_URL = "https://nuget.pkg.github.com/EducationPerfect/index.json";
     };
   };
 

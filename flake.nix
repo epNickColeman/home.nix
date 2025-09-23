@@ -28,7 +28,7 @@
             name = "Nick Coleman";
           };
           core = { autocrlf = "input"; };
-        };
+        }; 
         # Add more workspaces here as needed
         # "src/personal" = {
         #   user = {

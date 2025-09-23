@@ -4,7 +4,6 @@
   brews.apps = {
     casks = [
       "1password"
-      "brave-browser" # better chrome
       "cursor"
       "discord"
       "dropbox"
@@ -15,19 +14,15 @@
       "intellij-idea"
       "datagrip"
       "licecap" # animated screenshots
-      "notion"
-      "notion-calendar"
       "postman"
-      "hoppscotch" # postman alternative
       "rider"
       "slack"
+      "spotify"
       "sublime-text"
-      "vlc"
-      "warp" # AI-enabled terminal
       "zoom"
-      "zed" # code editor
       "mitmproxy"
     ];
+    
   };
 
   brews.vscode = {
@@ -37,6 +32,7 @@
         "akamud.vscode-theme-onedark"
         "amazonwebservices.aws-toolkit-vscode"
         "arrterian.nix-env-selector"
+        "authzed.spicedb-vscode"
         "bbenoist.Nix"
         "bierner.markdown-mermaid"
         "coolbear.systemd-unit-file"
@@ -84,6 +80,6 @@
   };
 
   brews.raycast = {
-    enable = true;
+    enable = false;
   };
  }

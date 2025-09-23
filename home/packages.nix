@@ -2,6 +2,7 @@
 
 {
   home.sessionPath = [
+      "$HOME/.rd/bin"
 
   ];
 

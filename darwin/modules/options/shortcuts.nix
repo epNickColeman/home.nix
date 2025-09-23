@@ -247,11 +247,11 @@ in
     # TODO: screenshots
 
     # TODO: services
-
+    
     spotlight = {
-      search = mkShortcut 64 "Show Spotlight search" true [command] "space";
-      finderSearch = mkShortcut 65 "Show Finder search" true [option command] "space";
-    };
+       search = mkShortcut 64 "Show Spotlight search" true [command] "space";
+       finderSearch = mkShortcut 65 "Show Finder search" true [option command] "space";
+     };
 
     # TODO: accessibility
 
