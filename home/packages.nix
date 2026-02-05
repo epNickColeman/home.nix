@@ -53,5 +53,7 @@
     libmediainfo
 
     yt-dlp
+
+    claude-code
   ];
 }
