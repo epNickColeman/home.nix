@@ -85,4 +85,5 @@
   #   enable = true;
   #   someOption = "value";
   # };
+  brews.claude.enable = true;
 }
