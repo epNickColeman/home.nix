@@ -38,6 +38,7 @@
         "eamodio.gitlens"
         "giltho.comby-vscode"
         "GitHub.copilot"
+        "GitHub.copilot-chat"
         "GraphQL.vscode-graphql-syntax"
         "GraphQL.vscode-graphql"
         "hashicorp.terraform"
@@ -51,7 +52,6 @@
         "ms-dotnettools.csdevkit"
         "ms-dotnettools.csharp"
         "ms-dotnettools.vscode-dotnet-runtime"
-        "ms-dotnettools.vscodeintellicode-csharp"
         "ms-vscode-remote.remote-containers"
         "ms-vscode.makefile-tools"
         "ms-CopilotStudio.vscode-copilotstudio"
@@ -60,8 +60,8 @@
         "streetsidesoftware.avro"
         "vscode-icons-team.vscode-icons"
         "yzhang.markdown-all-in-one"
-        "zxh404.vscode-proto3"
         "TheNuProjectContributors.vscode-nushell-lang"
+        "DrBlury.protobuf-vsc"
     ];
   };
 
