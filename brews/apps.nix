@@ -79,8 +79,4 @@
     enable = true;
     theme = "DrakulaPlus";
   };
-
-  brews.raycast = {
-    enable = false;
-  };
  }
