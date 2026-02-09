@@ -41,6 +41,7 @@
       email       = "nick.coleman@educationperfect.com";  # Replace with your actual email
       home        = "/Users/nick";
       shell       = "zsh";
+      hostname    = "Nicks-MacBook-Pro";
       
       # Git-specific configurations
       githubUser  = "epNickColeman";
@@ -63,7 +64,7 @@
     };
   in
   {
-    darwinConfigurations."Nicks-MacBook-Pro" = nix-darwin.lib.darwinSystem {
+    darwinConfigurations.${user.hostname} = nix-darwin.lib.darwinSystem {
       inherit pkgs;
       specialArgs = { inherit inputs user; };
       modules = [
