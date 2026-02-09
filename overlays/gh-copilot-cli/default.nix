@@ -17,6 +17,19 @@ self: super: {
     '';
 
     dontNpmBuild = true;
+    dontNpmInstall = true;
+
+    installPhase = ''
+      mkdir -p $out/lib/copilot
+      cp -r . $out/lib/copilot/
+      
+      mkdir -p $out/bin
+      cat > $out/bin/copilot << 'EOF'
+#!/bin/sh
+exec ${super.nodejs_22}/bin/node "$out/lib/copilot/index.js" "$@"
+EOF
+      chmod +x $out/bin/copilot
+    '';
 
     AUTHORIZED = "1";
 
