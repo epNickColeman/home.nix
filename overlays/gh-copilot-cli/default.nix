@@ -10,7 +10,7 @@ self: super: {
       hash = "sha256-tOsF3B1GB7/Gs9E8dw/P2SCcrmjIjYj/kfP6wWqBEUA=";
     };
 
-    npmDepsHash = "sha256-kSvaZZlPisLL7nPkrnjNAKgy3cPK5OV8V3t4pz9HMh8=";
+    npmDepsHash = "sha256-Yr8rsHz74KeRnKrNLbCoHxNXtm3O3oX4aSksJUrg6Z8=";
 
     postPatch = ''
       cp ${./package-lock.json} package-lock.json
