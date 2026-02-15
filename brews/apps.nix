@@ -86,5 +86,8 @@
   #   enable = true;
   #   someOption = "value";
   # };
-  brews.claude.enable = true;
+  brews.claude = {
+    enable = true;
+    enableGithubMCP = true;
+  };
 }
