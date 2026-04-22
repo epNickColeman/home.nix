@@ -45,6 +45,8 @@
     fx # Terminal JSON viewer & processor, https://fx.wtf/
     duckdb # https://duckdb.org/ SQL to CSV, TSV and many APIs
 
+    uv # Python package manager, https://github.com/astral-sh/uv
+
     scc # better cloc - code stats
 
     hyperfine # benchmark command
